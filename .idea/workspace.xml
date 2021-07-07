@@ -26,22 +26,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c454753-5433-40de-8b3b-91347e20acc7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/FirstFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/SecondFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentGateway/src/main/res/layout/activity_payment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentGateway/src/main/res/layout/content_payment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentGateway/src/main/res/layout/fragment_first.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentGateway/src/main/res/layout/fragment_second.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentGateway/src/main/res/navigation/nav_graph.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentGateway/src/main/res/values/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentGateway/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaymentGateway/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaymentGateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/PaymentGateway/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaymentGateway/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PaymentGateway/src/main/AndroidManifest.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6c454753-5433-40de-8b3b-91347e20acc7" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
