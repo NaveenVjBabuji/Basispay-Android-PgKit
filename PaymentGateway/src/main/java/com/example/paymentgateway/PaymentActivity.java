@@ -17,16 +17,13 @@ import java.util.Random;
 public class PaymentActivity extends AppCompatActivity {
 
        public PaymentListener paymentListener;
-
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_payment);
-
                 }
 
        public void initiatePaymentGateway(Map<String,String> paymentObject){
-
         PaymentParams pgPaymentParams = new PaymentParams();
         pgPaymentParams.setAPiKey(paymentObject.get(PaymentDefaults.apiKey));
         pgPaymentParams.setAmount(paymentObject.get(PaymentDefaults.amount));
@@ -63,7 +60,6 @@ public class PaymentActivity extends AppCompatActivity {
 
         @Override
         protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-
             if (requestCode == PGConstants.REQUEST_CODE) {
                 if(resultCode == Activity.RESULT_OK){
                     try{
