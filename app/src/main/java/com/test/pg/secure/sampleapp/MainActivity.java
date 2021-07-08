@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity implements PaymentListener {
 
     }
 
-    
+
     @Override
     public void onPaymentSuccess(JSONObject paymentResponse) {
         Log.d("cancel", paymentResponse.toString());
