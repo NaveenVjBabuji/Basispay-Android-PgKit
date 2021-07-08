@@ -26,7 +26,18 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c454753-5433-40de-8b3b-91347e20acc7" name="Default" comment="" />
+    <list default="true" id="6c454753-5433-40de-8b3b-91347e20acc7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentDefaults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/FirstFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/SecondFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaymentGateway/src/main/res/layout/activity_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PaymentGateway/src/main/res/layout/activity_payment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaymentGateway/src/main/res/layout/fragment_first.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaymentGateway/src/main/res/layout/fragment_second.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/test/pg/secure/sampleapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/test/pg/secure/sampleapp/MainActivity.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +60,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -273,6 +285,10 @@
     </state>
     <state x="549" y="312" key="#PSD/0.0.2048.1152@0.0.2048.1152" timestamp="1625648878603" />
     <state x="549" y="306" key="#PSD/0.25.2048.1039@0.25.2048.1039" timestamp="1625643878275" />
+    <state x="853" y="357" key="AndroidCreateXmlResourceDialog" timestamp="1625721144508">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="853" y="357" key="AndroidCreateXmlResourceDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1625721144508" />
     <state width="2006" height="329" key="GridCell.Tab.0.bottom" timestamp="1625648849743">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
