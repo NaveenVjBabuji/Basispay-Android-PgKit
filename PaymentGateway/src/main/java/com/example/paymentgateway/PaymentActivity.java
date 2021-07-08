@@ -18,10 +18,6 @@ public class PaymentActivity extends AppCompatActivity {
 
        public PaymentListener paymentListener;
 
-        PaymentActivity(PaymentListener paymentListener){
-         this.paymentListener = paymentListener;
-
-        }
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
