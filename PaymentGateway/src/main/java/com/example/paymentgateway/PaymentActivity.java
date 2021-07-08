@@ -3,18 +3,7 @@ package com.example.paymentgateway;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ProgressBar;
-import android.widget.TextView;
-
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
-
 import com.test.pg.secure.pgsdkv4.PGConstants;
 import com.test.pg.secure.pgsdkv4.PaymentGatewayPaymentInitializer;
 import com.test.pg.secure.pgsdkv4.PaymentParams;
@@ -27,10 +16,11 @@ import java.util.Random;
 
 public class PaymentActivity extends AppCompatActivity {
 
-        PaymentListener paymentListener;
+       public PaymentListener paymentListener;
 
         PaymentActivity(PaymentListener paymentListener){
          this.paymentListener = paymentListener;
+
         }
         @Override
         protected void onCreate(Bundle savedInstanceState) {
