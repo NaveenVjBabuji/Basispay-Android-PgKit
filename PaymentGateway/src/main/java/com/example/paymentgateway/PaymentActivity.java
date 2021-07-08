@@ -21,6 +21,10 @@ public class PaymentActivity extends AppCompatActivity {
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_payment);
+            Intent intent = getIntent();
+            paymentListener = (PaymentListener) intent.getSerializableExtra("interface");
+            Map<String,String> inputParameters = (Map<String,String>) intent.getSerializableExtra("inputParameters");
+            initiatePaymentGateway(inputParameters);
                 }
 
        public void initiatePaymentGateway(Map<String,String> paymentObject){

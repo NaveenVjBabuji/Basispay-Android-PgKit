@@ -14,15 +14,6 @@
         android:layout_centerHorizontal="true"
         android:text="Go To Payments Page" />
 
-    <ProgressBar
-        android:id="@+id/progressBar2"
-        style="?android:attr/progressBarStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="207dp" />
-
     <TextView
         android:id="@+id/transactionid"
         android:layout_width="204dp"

@@ -35,6 +35,11 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../PaymentGateway/src/androidTest/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../PaymentGateway/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../PaymentGateway/src/main/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../PaymentGateway/build/generated/renderscript_source_output_dir/debug/compileDebugRenderscript/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../PaymentGateway/build/generated/source/apt/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../PaymentGateway/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../PaymentGateway/build/generated/res/resValues/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../PaymentGateway/build/generated/res/rs/debug" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../../PaymentGateway/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../PaymentGateway/build" />
     </content>
