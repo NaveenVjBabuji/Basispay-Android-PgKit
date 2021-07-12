@@ -29,16 +29,8 @@
     <list default="true" id="6c454753-5433-40de-8b3b-91347e20acc7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaymentGateway/libs/PGSDKVR4.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentGatewayPaymentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentGatewayPaymentActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentGatewayPaymentInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentGatewayPaymentInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaymentGateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/PaymentGateway/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,34 +296,34 @@
     </state>
     <state x="853" y="357" key="AndroidCreateXmlResourceDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1625721144508" />
     <state x="853" y="347" key="AndroidCreateXmlResourceDialog/0.25.2048.1039@0.25.2048.1039" timestamp="1625729183832" />
-    <state width="2006" height="175" key="GridCell.Tab.0.bottom" timestamp="1626067492947">
+    <state width="2006" height="261" key="GridCell.Tab.0.bottom" timestamp="1626068802027">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="2006" height="175" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1626067492947" />
+    <state width="2006" height="261" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1626068802027" />
     <state width="2006" height="389" key="GridCell.Tab.0.bottom/0.25.2048.1039@0.25.2048.1039" timestamp="1626065428259" />
-    <state width="2006" height="175" key="GridCell.Tab.0.center" timestamp="1626067492944">
+    <state width="2006" height="261" key="GridCell.Tab.0.center" timestamp="1626068802026">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="2006" height="175" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1626067492944" />
+    <state width="2006" height="261" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1626068802026" />
     <state width="2006" height="389" key="GridCell.Tab.0.center/0.25.2048.1039@0.25.2048.1039" timestamp="1626065428258" />
-    <state width="2006" height="175" key="GridCell.Tab.0.left" timestamp="1626067492943">
+    <state width="2006" height="261" key="GridCell.Tab.0.left" timestamp="1626068802025">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="2006" height="175" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1626067492943" />
+    <state width="2006" height="261" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1626068802025" />
     <state width="2006" height="389" key="GridCell.Tab.0.left/0.25.2048.1039@0.25.2048.1039" timestamp="1626065428257" />
-    <state width="2006" height="175" key="GridCell.Tab.0.right" timestamp="1626067492946">
+    <state width="2006" height="261" key="GridCell.Tab.0.right" timestamp="1626068802027">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="2006" height="175" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1626067492946" />
+    <state width="2006" height="261" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1626068802027" />
     <state width="2006" height="389" key="GridCell.Tab.0.right/0.25.2048.1039@0.25.2048.1039" timestamp="1626065428258" />
     <state x="533" y="212" key="SettingsEditor" timestamp="1625648501441">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="533" y="212" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1625648501441" />
-    <state x="725" y="331" width="675" height="490" key="find.popup" timestamp="1626066887650">
+    <state x="725" y="331" width="675" height="490" key="find.popup" timestamp="1626068851997">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="725" y="331" width="675" height="490" key="find.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1626066887650" />
+    <state x="725" y="331" width="675" height="490" key="find.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1626068851997" />
     <state x="762" y="514" key="psd.add.jar.dependency.panel.dimension" timestamp="1625746420004">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>

@@ -63,7 +63,6 @@
     <orderEntry type="library" name="Gradle: android.arch.core:common:1.1.1" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-annotations:28.0.0" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout-solver:2.0.4" level="project" />
-    <orderEntry type="library" name="Gradle: ./PaymentGateway/libs/PGSDKVR4.aar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.navigation:navigation-ui:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:design:28.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout:2.0.4@aar" level="project" />
