@@ -238,12 +238,6 @@ public class PaymentParams {
     }
 
     public void setReturnUrl(String return_url) {
-//        try {
-//            PGConstants.CLIENT_RETURN_URL = return_url;
-//            this.return_url = URLEncoder.encode(return_url, "UTF-8");
-//        } catch (UnsupportedEncodingException var3) {
-//            var3.printStackTrace();
-//        }
         this.return_url = return_url;
     }
 

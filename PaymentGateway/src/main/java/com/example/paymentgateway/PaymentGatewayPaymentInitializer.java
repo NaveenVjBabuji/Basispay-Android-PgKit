@@ -198,7 +198,6 @@ public class PaymentGatewayPaymentInitializer {
             for(Iterator var3 = sorted.keySet().iterator(); var3.hasNext(); hashPostParamsBuilder = hashPostParamsBuilder.append(parameterEntry)) {
                 String key = (String)var3.next();
                 parameterEntry = key + "=" + (String)sorted.get(key) + "&";
-              //  parameterEntry = key + "=" + URLEncoder.encode((String)sorted.get(key), "UTF-8") + "&";
             }
         } catch (Exception var6) {
             StringWriter sw = new StringWriter();

@@ -49,27 +49,11 @@ public class PaymentGatewayPaymentActivity extends AppCompatActivity {
         HashMap<String,String> hashParamsMap = (HashMap<String,String>)this.getIntent().getSerializableExtra(PGConstants.HASH_MAP);
         String hashDict = "69ecafcf78912a3f57a00f0e78ea4194efcd7d24";
         TreeMap<String, String> sorted = new TreeMap<>();
-
         // Copy all data from hashMap into TreeMap
         sorted.putAll(hashParamsMap);
-
         // Display the TreeMap which is naturally sorted
         for (Map.Entry<String, String> entry : sorted.entrySet())
-//            System.out.println("Key = " + entry.getKey() +
-//                    ", Value = " + entry.getValue());
-
             hashDict += "|" + entry.getValue();
-
-//        Iterator it = hashParamsMap.entrySet().iterator();
-//        while (it.hasNext()) {
-//            Map.Entry pair = (Map.Entry)it.next();
-//
-//                hashDict += pair.getKey() + "|" + pair.getValue() + "|";
-//            it.remove(); // avoids a ConcurrentModificationException
-//        }
-       // System.out.println(hashDict);
-        Log.d("hashMap",hashDict);
-      //  Log.d("hashMap",hashParamsMap.toString());
         String hashValue = get_SHA_512_SecurePassword(hashDict);
 
         try {
@@ -141,22 +125,6 @@ public class PaymentGatewayPaymentActivity extends AppCompatActivity {
             throw new RuntimeException(e);
         }
     }
-
-
-    public static final String md5(final String toEncrypt) {
-        try {
-            final MessageDigest digest = MessageDigest.getInstance("md5");
-            digest.update(toEncrypt.getBytes());
-            final byte[] bytes = digest.digest();
-            final StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < bytes.length; i++) {
-                sb.append(String.format("%02X", bytes[i]));
-            }
-            return sb.toString().toLowerCase();
-        } catch (Exception exc) {
-            return ""; // Impossibru!
-        }
-    }
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (event.getAction() == 0) {
             switch(keyCode) {
@@ -183,18 +151,6 @@ public class PaymentGatewayPaymentActivity extends AppCompatActivity {
         } else {
             super.onBackPressed();
         }
-    }
-
-    public native String getParamA();
-
-    public native String getParamB();
-
-    public native String getParamC();
-
-    public native String getLink(String var1, String var2, String var3);
-
-    static {
-        System.loadLibrary("native-lib");
     }
 
     public class MyJavaScriptInterface {
