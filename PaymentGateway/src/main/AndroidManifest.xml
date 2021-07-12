@@ -4,7 +4,7 @@
 
     <application>
         <activity
-            android:name=".PaymentActivity"
+            android:name=".PaymentGatewayPaymentActivity"
             android:label="@string/title_activity_payment"
             android:theme="@style/Theme.BasispayAndroidPgKit.NoActionBar"></activity>
     </application>

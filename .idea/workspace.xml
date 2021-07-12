@@ -27,6 +27,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c454753-5433-40de-8b3b-91347e20acc7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PGConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentGatewayPaymentActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentGatewayPaymentInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentParams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -39,7 +43,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PaymentGateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/PaymentGateway/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaymentGateway/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PaymentGateway/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentDefaults.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/Sample1View.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaymentGateway/src/main/res/layout/activity_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PaymentGateway/src/main/res/layout/activity_payment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/test/pg/secure/sampleapp/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/test/pg/secure/sampleapp/ExampleInstrumentedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/test/pg/secure/sampleapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/test/pg/secure/sampleapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/test/pg/secure/sampleapp/SampleAppConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/test/pg/secure/sampleapp/SampleAppConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/test/pg/secure/sampleapp/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/test/pg/secure/sampleapp/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,18 +78,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>paynowform</find>
-      <find>Link</find>
-      <find>PG_RETURN_URL</find>
-      <find>PaymentGatewayPaymentActivity</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -94,7 +102,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="device.picker.selection" value="df71b918" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PaymentGateway/src/main/res/values" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -106,17 +114,19 @@
     <key name="android.template.1110034910">
       <recent name="com.example.paymentgateway" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/PaymentGateway/src/main/res/values" />
-      <recent name="$PROJECT_DIR$/PaymentGateway/libs" />
-      <recent name="D:\Development\Android\sampleapp\app\src\main\res\layout" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.test.pg.secure.sampleapp" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/PaymentGateway/src/main/res/values" />
       <recent name="$PROJECT_DIR$/app/libs" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.paymentgateway" />
+      <recent name="com.test.pg.secure.sampleapp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway" />
+      <recent name="$PROJECT_DIR$/PaymentGateway/src/main/res/values" />
+      <recent name="$PROJECT_DIR$/PaymentGateway/libs" />
+      <recent name="D:\Development\Android\sampleapp\app\src\main\res\layout" />
     </key>
   </component>
   <component name="RunManager">
@@ -285,15 +295,23 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="306" key="#PSD" timestamp="1625728857298">
-      <screen x="0" y="25" width="2048" height="1039" />
+    <state x="549" y="312" key="#PSD" timestamp="1625746426191">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="549" y="312" key="#PSD/0.0.2048.1152@0.0.2048.1152" timestamp="1625648878603" />
+    <state x="549" y="312" key="#PSD/0.0.2048.1152@0.0.2048.1152" timestamp="1625746426191" />
     <state x="549" y="306" key="#PSD/0.25.2048.1039@0.25.2048.1039" timestamp="1625728857298" />
     <state x="837" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1625728912259">
       <screen x="0" y="25" width="2048" height="1039" />
     </state>
     <state x="837" y="255" key="#com.intellij.ide.util.MemberChooser/0.25.2048.1039@0.25.2048.1039" timestamp="1625728912259" />
+    <state x="694" y="430" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1625739119513">
+      <screen x="0" y="25" width="2048" height="1039" />
+    </state>
+    <state x="694" y="430" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.25.2048.1039@0.25.2048.1039" timestamp="1625739119513" />
+    <state x="762" y="327" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1625824162738">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="762" y="327" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1625824162738" />
     <state x="612" y="303" key="AndroidCreateResourceDirectoryDialog" timestamp="1625729288160">
       <screen x="0" y="25" width="2048" height="1039" />
     </state>
@@ -303,34 +321,78 @@
     </state>
     <state x="853" y="357" key="AndroidCreateXmlResourceDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1625721144508" />
     <state x="853" y="347" key="AndroidCreateXmlResourceDialog/0.25.2048.1039@0.25.2048.1039" timestamp="1625729183832" />
-    <state width="2006" height="152" key="GridCell.Tab.0.bottom" timestamp="1625737305286">
+    <state width="2006" height="181" key="GridCell.Tab.0.bottom" timestamp="1626066980289">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="2006" height="152" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1625737305286" />
-    <state width="2006" height="152" key="GridCell.Tab.0.center" timestamp="1625737305285">
+    <state width="2006" height="181" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1626066980289" />
+    <state width="2006" height="389" key="GridCell.Tab.0.bottom/0.25.2048.1039@0.25.2048.1039" timestamp="1626065428259" />
+    <state width="2006" height="181" key="GridCell.Tab.0.center" timestamp="1626066980288">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="2006" height="152" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1625737305285" />
-    <state width="2006" height="152" key="GridCell.Tab.0.left" timestamp="1625737305284">
+    <state width="2006" height="181" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1626066980288" />
+    <state width="2006" height="389" key="GridCell.Tab.0.center/0.25.2048.1039@0.25.2048.1039" timestamp="1626065428258" />
+    <state width="2006" height="181" key="GridCell.Tab.0.left" timestamp="1626066980287">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="2006" height="152" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1625737305284" />
-    <state width="2006" height="152" key="GridCell.Tab.0.right" timestamp="1625737305286">
+    <state width="2006" height="181" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1626066980287" />
+    <state width="2006" height="389" key="GridCell.Tab.0.left/0.25.2048.1039@0.25.2048.1039" timestamp="1626065428257" />
+    <state width="2006" height="181" key="GridCell.Tab.0.right" timestamp="1626066980288">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="2006" height="152" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1625737305286" />
+    <state width="2006" height="181" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1626066980288" />
+    <state width="2006" height="389" key="GridCell.Tab.0.right/0.25.2048.1039@0.25.2048.1039" timestamp="1626065428258" />
     <state x="533" y="212" key="SettingsEditor" timestamp="1625648501441">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="533" y="212" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1625648501441" />
-    <state x="762" y="514" key="psd.add.jar.dependency.panel.dimension" timestamp="1625648873090">
+    <state x="725" y="331" width="675" height="490" key="find.popup" timestamp="1626066887650">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="762" y="514" key="psd.add.jar.dependency.panel.dimension/0.0.2048.1152@0.0.2048.1152" timestamp="1625648873090" />
+    <state x="725" y="331" width="675" height="490" key="find.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1626066887650" />
+    <state x="762" y="514" key="psd.add.jar.dependency.panel.dimension" timestamp="1625746420004">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="762" y="514" key="psd.add.jar.dependency.panel.dimension/0.0.2048.1152@0.0.2048.1152" timestamp="1625746420004" />
     <state x="762" y="489" key="psd.add.jar.dependency.panel.dimension/0.25.2048.1039@0.25.2048.1039" timestamp="1625643876855" />
     <state x="837" y="449" key="psd.choose.module.panel.dimension" timestamp="1625643700360">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="837" y="449" key="psd.choose.module.panel.dimension/0.0.2048.1152@0.0.2048.1152" timestamp="1625643700360" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentGatewayPaymentInitializer.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentGatewayPaymentInitializer.java</url>
+          <line>183</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentGatewayPaymentActivity.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentGatewayPaymentActivity.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentGatewayPaymentActivity.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/PaymentGateway/src/main/java/com/example/paymentgateway/PaymentGatewayPaymentActivity.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

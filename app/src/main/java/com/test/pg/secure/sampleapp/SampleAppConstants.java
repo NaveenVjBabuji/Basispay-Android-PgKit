@@ -1,4 +1,4 @@
-package com.test.pg.secure.sampleapp;
+
 
 public class SampleAppConstants {
     //API_KEY is given by the Payment Gateway. Please Copy Paste Here.
